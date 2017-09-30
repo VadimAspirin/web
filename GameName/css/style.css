@@ -2,14 +2,15 @@ body {
     font-family: "Arial", sans-serif;
     font-size: 15px;
     line-height: 1.4;
+    margin: 0;
 }
 
 .main-menu {
     margin: 0;
     padding: 10px 15px;
     list-style: none;
-    background: #f5f5f5;
-    border: 1px solid #e5e5e5;
+    background: #f2f2f2;
+    border: 1px solid #d5d5d5;
     height: 20px;
 }
 
@@ -39,4 +40,28 @@ body {
 
 .main-menu .active {
 	color: #0088cc;
+	}
+
+.button-start {
+	top: 50%; /* Отступ в процентах от верхнего края окна */
+	left: 50%; /* Отступ в процентах от левого края окна */
+	width: 200px; /* Ширина блока */
+	height: 50px; /* Высота блока */
+	position: absolute; /* Абсолютное позиционирование блока */
+	margin-top: -25px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+	margin-left: -100px; /* Отрицательный отступ от левого края страницы, должен равняться половине высоты блока со знаком минус */
+	background: #0088cc;
+	box-shadow: 3px 4px 16px -8px #000000;
+	}
+
+.button-start > a {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	text-decoration: none;
+	color: white;
+	padding-left: 50px;
+	padding-top: 15px;
 	}
