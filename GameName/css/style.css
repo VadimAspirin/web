@@ -1,0 +1,42 @@
+body {
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.main-menu {
+    margin: 0;
+    padding: 10px 15px;
+    list-style: none;
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    height: 20px;
+}
+
+.main-menu ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	}
+
+.main-menu li {
+	display: inline;
+	margin-right: 10px;
+	vertical-align: top;
+	}
+
+.main-menu a {
+	text-decoration: none;
+	color: #888888;
+	vertical-align: top;
+	}
+
+.main-menu img.main-page {
+	height: 36px;
+	width: 171px;
+	margin-top: -10px;
+	}
+
+.main-menu .active {
+	color: #0088cc;
+	}
