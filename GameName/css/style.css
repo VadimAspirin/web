@@ -12,6 +12,11 @@ body {
     background: #f2f2f2;
     border: 1px solid #d5d5d5;
     height: 20px;
+    position: fixed;
+    left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
 }
 
 .main-menu ul {
@@ -43,13 +48,13 @@ body {
 	}
 
 .button-start {
-	top: 50%; /* Отступ в процентах от верхнего края окна */
-	left: 50%; /* Отступ в процентах от левого края окна */
-	width: 200px; /* Ширина блока */
-	height: 50px; /* Высота блока */
-	position: absolute; /* Абсолютное позиционирование блока */
-	margin-top: -25px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
-	margin-left: -100px; /* Отрицательный отступ от левого края страницы, должен равняться половине высоты блока со знаком минус */
+	top: 50%;
+	left: 50%;
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	margin-top: -25px;
+	margin-left: -100px;
 	background: #0088cc;
 	box-shadow: 3px 4px 16px -8px #000000;
 	}
@@ -64,4 +69,22 @@ body {
 	color: white;
 	padding-left: 50px;
 	padding-top: 15px;
+	}
+
+.data {
+	margin-top: 80px;
+	margin-bottom: 40px;
+	margin-left: 20%;
+	margin-right: 20%;
+	}
+
+.data > img {
+	max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    display: block;
+	}
+
+.top-list {
+	font-size: 40px;
 	}
