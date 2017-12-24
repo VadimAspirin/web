@@ -1,0 +1,6 @@
+<header class="main-menu">
+	<ul>
+		<li><a href="#/start"><img class="main-page" src="./img/logo.png"></a></li>
+		<li ng-repeat="item in items"><a ng-class="{active: '#'+checkCurrentPath()==item.href}" href={{item.href}}>{{item.title}}</a></li>
+	</ul>
+</header>

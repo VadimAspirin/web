@@ -1,0 +1,5 @@
+[
+	{"id":"0","name":"spaceship_lvl1","image":"./img/game_object_1.png","speed":1.5},
+	{"id":"1","name":"spaceship_lvl2","image":"./img/game_object_2.png","speed":3},
+	{"id":"2","name":"spaceship_lvl3","image":"./img/game_object_3.png","speed":5}
+]

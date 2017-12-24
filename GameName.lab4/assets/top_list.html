@@ -1,0 +1,14 @@
+<div class="data top-list">
+	<table>
+		<tr>
+			<td><b>№</b></td>
+			<td><b>Имя</b></td>
+			<td><b>Очки</b></td>
+		</td>
+		<tr ng-repeat="user in users | orderBy : 'score' : true | limitTo: 5">
+			<td>{{$index + 1}}.&nbsp;</td>
+			<td>{{user.name}}&nbsp;&nbsp;</td>
+			<td>{{user.score}}</td>
+		</tr>
+	</table>
+</div>

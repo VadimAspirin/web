@@ -1,0 +1,20 @@
+<div ng-switch on="service.isGameOver">
+	<div ng-switch-when="true" class="game-over-window">
+		<p class="">
+		<center>
+			<h1>Game Over</h1>
+			<b>Score: {{score}}</b><br>
+			Введите своё имя:<br>
+			<input ng-model="name" type="text"><br>
+			<button ng-click="sendUser(name)">Отправить</button>
+		</center>
+	</div>
+	<div ng-switch-when="false" class="game-window">
+		<div style="padding-top: 5px; padding-left: 7px; float: left; clear: right;">Level: {{service.level}}</div>
+		<div style="padding-top: 5px; padding-right: 7px; float: right;">Score: {{score}}</div>
+		<gameobject></gameobject>
+		<div style="position: absolute; padding-left: {{enemy.x}}px; padding-top: {{enemy.y}}px; visibility: {{enemy.visibility}};" ng-repeat="enemy in enemies">
+			<img src="./img/enemy.png" width="{{enemyLengthX}}" height="{{enemyLengthY}}">
+		</div>
+	</div>
+</div>
